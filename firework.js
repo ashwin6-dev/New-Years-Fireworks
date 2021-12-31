@@ -37,7 +37,7 @@ class Firework {
             this.pos.x += this.vel.x
             this.pos.y += this.vel.y
             
-            strokeWeight(6);
+            strokeWeight(8);
             stroke(this.colour)
             point(this.pos.x, this.pos.y)
         }else {
