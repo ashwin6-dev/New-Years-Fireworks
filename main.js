@@ -7,7 +7,7 @@ function setup() {
 
 function getCountdownTime() {
     let now = new Date()
-    let hours = 24 - now.getHours()
+    let hours = 23 - now.getHours()
     let minutes = 60 - now.getMinutes()
     let seconds = 60 - now.getSeconds()
     if (hours < 10) hours = `0${hours}`
